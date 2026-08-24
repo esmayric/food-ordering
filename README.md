@@ -90,6 +90,16 @@ Gurmia'da ürünün güncel fiyatı ile geçmiş siparişteki fiyat birbirinden 
 ```text
 foods.price = Güncel menü fiyatı
 order_items.unit_price = Sipariş anındaki fiyat
+```
+
+Admin daha sonra ürünün fiyatını **300 TL** olarak güncellerse:
+
+- Ana menüde ürün 300 TL görünür.
+- Daha önce oluşturulan siparişte ürün 200 TL olarak kalır.
+
+Bu sayede geçmiş siparişlerin fiyatları sonradan yapılan menü değişikliklerinden etkilenmez.
+
+---
 
 ## Proje Yapısı
 

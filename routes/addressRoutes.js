@@ -1,0 +1,8 @@
+const express = require('express');
+const router = express.Router();
+const addressController = require('../controllers/addressController');
+const { authenticateToken } = require('../middleware/auth');
+
+router.post('/', authenticateToken, addressController.createAddress);
+
+module.exports = router;

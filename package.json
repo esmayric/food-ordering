@@ -1,0 +1,24 @@
+{
+  "name": "yemek-siparis",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "React, Node.js, Express ve MySQL ile geliştirilmiş full-stack yemek sipariş uygulaması",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
